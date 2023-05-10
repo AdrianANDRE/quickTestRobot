@@ -8,3 +8,5 @@ My test doc
 My test tag 
     [Tags]    My test tag
     test    
+Longer test
+    Sleep    60 seconds
