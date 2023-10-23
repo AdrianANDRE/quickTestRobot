@@ -9,4 +9,4 @@ My test tag
     [Tags]    My test tag
     test    
 Longer test
-    Sleep    60 seconds
+    Sleep    100 seconds
