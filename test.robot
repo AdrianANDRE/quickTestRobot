@@ -5,8 +5,15 @@ test
 My test doc
     [Documentation]    My test documentation
     test
-My test tag 
-    [Tags]    My test tag
-    test    
-Longer test
-    Sleep    100 seconds
+Success tag 
+    [Tags]    success
+    test
+    Log To Console    success
+Failed tag
+    [Tags]    failed
+    test
+    Log To Console    failed    
+Random tag
+    [Tags]    random
+    test
+    Log To Console    random   
