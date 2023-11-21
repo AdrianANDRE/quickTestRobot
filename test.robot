@@ -17,8 +17,6 @@ Random tag
     [Tags]    random
     test
     Log To Console    random
-Special Char tag
-    [Tags]    \-_'"#$%&^¨*!~}{é\/
-    test
-    Log To Console    -_'"#$%&^¨*!~}{é\/
-       
+Log env variable
+    [Tags]    success
+    Log To Console    %{ROBOTFRAMEWORK_EXTRA_OPTIONS}
