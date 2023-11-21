@@ -16,4 +16,9 @@ Failed tag
 Random tag
     [Tags]    random
     test
-    Log To Console    random   
+    Log To Console    random
+Special Char tag
+    [Tags]    \-_'"#$%&^¨*!~}{é\/
+    test
+    Log To Console    -_'"#$%&^¨*!~}{é\/
+       
