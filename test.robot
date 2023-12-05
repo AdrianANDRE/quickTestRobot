@@ -2,8 +2,6 @@
 test
     Log To Console    test for better application
 *** Test Cases ***
-Wait 
-    Sleep    30 minutes
 My test doc
     [Documentation]    My test documentation
     test
