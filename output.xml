@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230120 15:20:09.023" rpa="false" schemaversion="3">
-<suite id="s1" name="Test" source="c:\Users\aandre\Desktop\DepotGit\quickTestRobot\test.robot">
-<test id="s1-t1" name="My test doc" line="5">
-<kw name="test">
+<robot generator="Robot 6.1.1 (Python 3.10.12 on linux)" generated="20231205 14:56:59.447" rpa="false" schemaversion="4">
+<suite id="s1" name="Test" source="/mnt/c/Users/aandre/Desktop/test/quickTestRobot/test.robot">
+<test id="s1-t1" name="Log var value" line="37">
 <kw name="Log To Console" library="BuiltIn">
-<arg>test for better application</arg>
+<arg>${var}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230120 15:20:09.060" endtime="20230120 15:20:09.061"/>
+<status status="PASS" starttime="20231205 14:56:59.470" endtime="20231205 14:56:59.471"/>
 </kw>
-<status status="PASS" starttime="20230120 15:20:09.060" endtime="20230120 15:20:09.062"/>
-</kw>
-<doc>My test documentation</doc>
-<status status="PASS" starttime="20230120 15:20:09.059" endtime="20230120 15:20:09.062"/>
+<status status="PASS" starttime="20231205 14:56:59.470" endtime="20231205 14:56:59.471"/>
 </test>
-<test id="s1-t2" name="My test tag" line="8">
-<kw name="test">
-<kw name="Log To Console" library="BuiltIn">
-<arg>test for better application</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230120 15:20:09.066" endtime="20230120 15:20:09.067"/>
-</kw>
-<status status="PASS" starttime="20230120 15:20:09.065" endtime="20230120 15:20:09.067"/>
-</kw>
-<tag>My test tag</tag>
-<status status="PASS" starttime="20230120 15:20:09.064" endtime="20230120 15:20:09.068"/>
-</test>
-<status status="PASS" starttime="20230120 15:20:09.029" endtime="20230120 15:20:09.070"/>
+<status status="PASS" starttime="20231205 14:56:59.450" endtime="20231205 14:56:59.472"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">My test tag</stat>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20231205 14:56:59.448" level="ERROR">Taking listener 'allure_robotframework;.' into use failed: Importing listener 'allure_robotframework' failed: ModuleNotFoundError: No module named 'allure_robotframework'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/adrian/.local/bin
+  /usr/lib/python310.zip
+  /usr/lib/python3.10
+  /usr/lib/python3.10/lib-dynload
+  /home/adrian/.local/lib/python3.10/site-packages
+  /usr/local/lib/python3.10/dist-packages
+  /usr/lib/python3/dist-packages</msg>
 </errors>
 </robot>
