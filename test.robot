@@ -34,3 +34,5 @@ Log test 3
     Log To Console    Hello number
 Log var value
     Log To Console    ${var}
+Failed
+    Should Be Equal    ${True}    ${False}
