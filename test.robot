@@ -18,3 +18,8 @@ Log env variable
     Log To Console    %{ROBOTFRAMEWORK_EXTRA_OPTIONS}
 Failed
     Should Be Equal    ${True}    ${False}
+log squash
+    FOR    ${i}    IN RANGE    10
+        Log To Console    This is the ${i} hello
+        Sleep    5s
+    END
