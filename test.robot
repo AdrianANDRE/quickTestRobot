@@ -23,3 +23,6 @@ log squash
         Log To Console    This is the ${i} hello
         Sleep    5s
     END
+Waiting
+    Log To Console    Waiting
+    Sleep    10s
