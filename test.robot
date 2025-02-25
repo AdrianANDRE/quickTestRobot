@@ -26,3 +26,11 @@ log squash
 Waiting
     Log To Console    Waiting
     Sleep    10s
+
+Random success
+    ${Random Numbers}=     Evaluate  random.sample(range(1, 50),3)   random
+    Log To Console    ${Random Numbers}
+
+Random failed
+    ${Random Numbers}=     Evaluate  random.sample(range(1, 100),5)   random
+    Fail    ${Random Numbers}
