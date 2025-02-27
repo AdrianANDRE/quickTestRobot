@@ -23,8 +23,8 @@ log squash
         Log To Console    This is the ${i} hello
         Sleep    5s
     END
-Waiting
-    Log To Console    Waiting
+Wait
+    Log To Console    Wait
     Sleep    10s
 
 Random success
