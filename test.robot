@@ -34,3 +34,10 @@ Random success
 Random failed
     ${Random Numbers}=     Evaluate  random.sample(range(1, 100),5)   random
     Fail    ${Random Numbers}
+Random status
+    ${Random_Numbers}=     Evaluate  random.randint(1, 10)
+    Log To Console    ${Random_Numbers}
+    IF    ${Random_Numbers} != 1
+        Fail    msg="The number ${Random_Numbers} is not 1"
+    END
+    
