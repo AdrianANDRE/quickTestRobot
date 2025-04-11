@@ -25,7 +25,7 @@ log squash
     END
 Wait
     Log To Console    Wait
-    Sleep    100s
+    Sleep    10s
 
 Random success
     ${Random Numbers}=     Evaluate  random.sample(range(1, 50),3)   random
