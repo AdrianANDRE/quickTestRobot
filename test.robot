@@ -16,6 +16,8 @@ Random tag
 Log env variable
     [Tags]    success
     Log To Console    %{ROBOTFRAMEWORK_EXTRA_OPTIONS}
+Log variable
+    Log To Console    %{TEST_VAR}
 Failed
     Should Be Equal    ${True}    ${False}
 log squash
